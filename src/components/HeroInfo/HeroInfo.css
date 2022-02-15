@@ -1,0 +1,107 @@
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    max-width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.hero-info-single-item{
+    width: 95%;
+    position: relative;
+    align-items: center;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    background-color: black;
+    border: black solid 0.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1rem;
+    box-sizing: border-box;
+}
+.item-decs a:link{
+    color: #d4cece;
+    background-color: transparent;
+    text-decoration:underline; 
+    font-style: italic;
+}
+.item-decs a:hover {
+    color: #F0131E;
+    background-color: transparent;
+    text-decoration:underline; 
+}
+.img-container{
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1rem;
+}
+.item-img{
+    max-width: inherit;
+    vertical-align: bottom;
+}
+.item-img:hover{
+    transition: 0.3s ease-in; 
+    transform: scale(1.15);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.item-decs{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d4cece;
+    flex-direction: column;
+    margin: 10%;
+    align-items: flex-start;
+}
+
+.item-name{
+    margin-bottom: 5%;
+    text-align: left;
+    color: #d4cece;
+    font-size:xx-large;
+}
+.item-description{
+    height: max-content;
+    margin-bottom: 5%;
+    text-overflow: ellipsis;
+}
+.item-explore-link{
+    color: #d4cece;
+}
+.hero-info-guide{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+/******************   PC   ************************/
+@media (min-width: 350px) {
+    .hero-info{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .hero-info-single-item{
+        grid-column: span 6;
+    }
+}
+@media (min-width: 550px) {
+    .hero-info-single-item{
+        grid-column: span 4;
+    }
+}
+@media (min-width: 750px) {
+    .hero-info-single-item{
+        grid-column: span 3;
+    }
+}
+@media (min-width: 1000px) {
+    .hero-info-single-item{
+        grid-column: span 2;
+    }
+}

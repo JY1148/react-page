@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+    
+    
+}
+.nav-item{
+    margin: 0.5rem;
+    grid-column-start: 5;
+}
+.nav-item:hover a{
+    color:#F0131E;
+    font-weight: 900;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: large;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}

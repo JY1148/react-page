@@ -1,0 +1,54 @@
+.topbtn {
+  display: block;
+
+  background-color: #7a5024;
+  color: #d4cece;
+  
+  border-radius: 2rem;
+  border: none;
+  
+  text-align: center;
+  font-size: 28px;
+  font-family: sans-serif;
+  
+  padding: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.5s;
+
+  cursor: pointer;
+  
+  margin-left: auto;
+  margin-right: 1rem;
+  
+  position:fixed;
+  bottom:65px;
+  right:0;
+}
+.topbtn span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+}
+.topbtn:hover:before {
+  content: "\1F680";
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+.topbtn span:after {
+  opacity: 0;
+  top: 0;
+  bottom: -3rem;
+  transition: 0.5s;
+}
+.topbtn:hover span {
+  display: none;
+}
+.topbtn:hover {
+  background-color: #F0131E;
+  padding-bottom: 3rem;
+}
+.topbtn:hover span:after {
+  opacity: 1;
+  bottom: 0;
+}

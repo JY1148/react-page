@@ -1,0 +1,27 @@
+.loading{
+    margin-top: 5%;
+    margin-left: 45%;
+    max-width: 10rem;
+}
+.loading-spin-icon{
+    width: 12rem;
+    height: 12rem;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+}
+.loading-text{
+    margin-left: 1.5rem;
+    color:#F0131E;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

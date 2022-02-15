@@ -1,0 +1,57 @@
+.reloadbtn {
+  display: block;
+  border-radius: 2rem;
+  background-color: #7a5024;
+  border: none;
+  color: #d4cece;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 1rem;
+  position:fixed;
+    bottom:0;
+    right:0;
+}
+.reloadbtn span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  
+}
+.reloadbtn:hover:before {
+  font-size: 28px;
+  content: "\1F504";
+  display: inline-block;
+  animation-duration: 1s;
+  animation-name: spin;
+}
+.reloadbtn span:after {
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.reloadbtn:hover span {
+  display: none;
+}
+.reloadbtn:hover {
+  background-color: #b1953e;
+}
+.reloadbtn:hover span:after {
+  opacity: 1;
+  bottom: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

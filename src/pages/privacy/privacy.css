@@ -1,0 +1,61 @@
+.privacy{
+    margin: 0.5rem;
+}
+.privacy-bg-container{
+    position: relative;
+    text-align:start;
+    color: #2e2424;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-top: 0;
+    width: 100%; 
+    
+    overflow: hidden;
+    margin-bottom: 3rem;
+    justify-content: stretch;
+}
+.privacy-bg{
+    max-width: 100%;
+    width: inherit;
+    margin-bottom: -40rem;
+}
+.privacy-text{
+    margin: 2rem;
+}
+.privacy-text p span{
+    color: #A1080F;
+    font-weight: 800;
+}
+.privacy-point{
+    font-weight: 700;
+}
+.privact-table {
+    font-weight: 800;
+    font-size: larger;
+}
+.privacy-question{
+    font-weight: 800;
+    font-size: larger;
+}
+.privacy-questionlist{
+    font-size: large;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+/******************   PC   ************************/
+@media (min-width: 700px) {
+    .privacy-bg-container .on-img-words {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    
+}@media (min-width: 1000px) {
+    .privacy-bg{
+        visibility: visible;
+    }
+    
+}
+

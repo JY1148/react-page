@@ -1,0 +1,13 @@
+.footer-container{
+    display: grid;
+    margin: 0 auto;
+    gap: 0.5rem;
+
+    max-width: 100%;
+    height: 5rem;
+    background-color: #2e2424;
+    color:#d4cece;
+    
+    align-items: center;
+    text-align: center;
+}
