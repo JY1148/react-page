@@ -1,11 +1,11 @@
-## About the web application: Marvel Hall of Fame
+## About the web application: 🦸‍♀️Marvel Hall of Fame🦸‍♂️
 Marvel Hall of Fame is an exibition website of Marvel Characters based on the Marvel-API (https://developer.marvel.com/)
 Marvel Hall of Fame features three functions, display, search and add/delete list items.
 For Display, users can have a glimpse of random list fetched from Marvel-API with characters'thumbnails as well as name info.
 In the search page, users can search specfic marvel characters based on the name (fuzzy search of perfect match search).
 What's more, users can create their favorite list of characters. List can be incremented or decreased by clicking add or delete button. Since no local storage is used, refreshes will trigger the history clear.
 
-## Complex UI elements
+## 🔬Complex UI elements
 1. Header:
     skip-to-main button
     navgation bar: by clicking the div, spa will show different page content accordingly.
