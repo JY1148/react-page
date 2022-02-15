@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/react-page/static/css/main.387fd2a0.css",
-    "main.js": "/react-page/static/js/main.484d71cb.js",
-    "static/js/787.28cb0dcd.chunk.js": "/react-page/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/react-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-page/static/css/main.d679c79c.chunk.css",
+    "main.js": "/react-page/static/js/main.6a6a4561.chunk.js",
+    "main.js.map": "/react-page/static/js/main.6a6a4561.chunk.js.map",
+    "runtime-main.js": "/react-page/static/js/runtime-main.98fd79ef.js",
+    "runtime-main.js.map": "/react-page/static/js/runtime-main.98fd79ef.js.map",
+    "static/js/2.cac6d141.chunk.js": "/react-page/static/js/2.cac6d141.chunk.js",
+    "static/js/2.cac6d141.chunk.js.map": "/react-page/static/js/2.cac6d141.chunk.js.map",
+    "static/js/3.3b3a3beb.chunk.js": "/react-page/static/js/3.3b3a3beb.chunk.js",
+    "static/js/3.3b3a3beb.chunk.js.map": "/react-page/static/js/3.3b3a3beb.chunk.js.map",
     "index.html": "/react-page/index.html",
-    "main.387fd2a0.css.map": "/react-page/static/css/main.387fd2a0.css.map",
-    "main.484d71cb.js.map": "/react-page/static/js/main.484d71cb.js.map",
-    "787.28cb0dcd.chunk.js.map": "/react-page/static/js/787.28cb0dcd.chunk.js.map"
+    "static/css/main.d679c79c.chunk.css.map": "/react-page/static/css/main.d679c79c.chunk.css.map",
+    "static/js/2.cac6d141.chunk.js.LICENSE.txt": "/react-page/static/js/2.cac6d141.chunk.js.LICENSE.txt",
+    "static/media/Marvel-fame-of-hall-logo-stamp.155f2c0b.png": "/react-page/static/media/Marvel-fame-of-hall-logo-stamp.155f2c0b.png",
+    "static/media/comics.97e38133.jpg": "/react-page/static/media/comics.97e38133.jpg",
+    "static/media/privacy.36e4a36b.jpg": "/react-page/static/media/privacy.36e4a36b.jpg",
+    "static/media/search-search.8f3490ad.png": "/react-page/static/media/search-search.8f3490ad.png"
   },
   "entrypoints": [
-    "static/css/main.387fd2a0.css",
-    "static/js/main.484d71cb.js"
+    "static/js/runtime-main.98fd79ef.js",
+    "static/js/2.cac6d141.chunk.js",
+    "static/css/main.d679c79c.chunk.css",
+    "static/js/main.6a6a4561.chunk.js"
   ]
 }
